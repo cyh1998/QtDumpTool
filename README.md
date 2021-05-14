@@ -11,7 +11,7 @@
 
 - Dump生成
   
-  1. 在Qt工程的 `pro` 文件中引入依赖文
+  1. 在Qt工程的 `pro` 文件中引入依赖文件
      
      ```qmake
      include(../dump/CrashManager.pri)
@@ -27,7 +27,7 @@
      CrashManager::CrashHandler::instance()->Init(QCoreApplication::applicationDirPath() + "/crashdump");
      ```
      
-     测试Dump的示例项目在 `test` 目录下，可以参考实现。
+     测试Dump的示例项目在 `test` 目录下，可以参考实现
 
 - 脚本使用
   
@@ -44,4 +44,4 @@
      
      ```shell
      ./autoDump.sh
-     ``
+     ```
